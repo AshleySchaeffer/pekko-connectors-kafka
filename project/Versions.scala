@@ -24,7 +24,7 @@ object Versions {
   val pekkoConnectorsKafkaVersionForDocs = "current"
   val pekkoManagementVersionForDocs = "current"
 
-  val kafkaVersion = "3.9.0"
+  val kafkaVersion = "2.11.0"
   val KafkaVersionForDocs = "37"
 
   val scalaTestVersion = "3.2.19"
@@ -40,7 +40,7 @@ object Versions {
     ExclusionRule("log4j", "log4j"),
     ExclusionRule("org.slf4j", "slf4j-log4j12"),
     ExclusionRule("com.typesafe.scala-logging"),
-    ExclusionRule("org.apache.kafka"))
+    ExclusionRule("org.apache.pulsar"))
 
   val pekkoAPI = "https://pekko.apache.org/api"
   val pekkoJavaAPI = "https://pekko.apache.org/japi"
