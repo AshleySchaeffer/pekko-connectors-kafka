@@ -20,7 +20,7 @@ object Dependencies {
     "org.scalatest" %% "scalatest" % scalaTestVersion % IntegrationTest)
 
   lazy val coreDependencies = Seq(
-    "org.apache.kafka" % "kafka-clients" % kafkaVersion)
+    "org.apache.pulsar" % "pulsar-client-kafka" % kafkaVersion)
 
   lazy val testDependencies = Seq(
     "com.google.protobuf" % "protobuf-java" % "3.25.6", // use the same version as in scalapb
